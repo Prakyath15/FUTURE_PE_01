@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Zen Cafe | Mangalore</title>
+  <meta name="description" content="Enjoy pizza, pasta, sandwiches, Chinese and fast food, desserts, and fresh juices at Zen Cafe in Mangalore. Dine in or choose takeaway.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #fffaf5;
+    }
+
+    header {
+      background: #1f1f1f;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 8%;
+      background: linear-gradient(135deg, #fff1df, #f8d8b0);
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: clamp(40px, 7vw, 72px);
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 19px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 24px;
+      margin: 6px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #1f1f1f;
+      color: white;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    .btn-light {
+      background: white;
+      color: #1f1f1f;
+      border: 1px solid #1f1f1f;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .about {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .services {
+      background: #f5eadf;
+    }
+
+    .why-list {
+      max-width: 800px;
+      margin: auto;
+      display: grid;
+      gap: 15px;
+    }
+
+    .why-item {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .cta {
+      text-align: center;
+      background: #1f1f1f;
+      color: white;
+    }
+
+    .cta p {
+      max-width: 750px;
+      margin: 15px auto 25px;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        min-height: 70vh;
+      }
+
+      section {
+        padding: 55px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Zen Cafe</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Good Food. Good Moments. Welcome to Zen Cafe.</h1>
+
+        <p>
+          Enjoy delicious food and refreshing beverages in a friendly,
+          welcoming space in Mangalore. Dine in with friends and family
+          or order your favourites for takeaway.
+        </p>
+
+        <a href="#contact" class="btn">Visit Zen Cafe</a>
+        <a href="#services" class="btn btn-light">Explore Our Menu</a>
+      </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section>
+      <div class="section-title">
+        <h2>Something for Every Craving</h2>
+
+        <p>
+          Whether you're looking for a quick bite, a meal with friends,
+          or something sweet to finish, Zen Cafe has a variety of food
+          and beverages to choose from.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>🍕 Pizza</h3>
+          <p>A satisfying choice for sharing or enjoying on your own.</p>
+        </div>
+
+        <div class="card">
+          <h3>🍝 Pasta</h3>
+          <p>Comforting and filling for a relaxed meal.</p>
+        </div>
+
+        <div class="card">
+          <h3>🥪 Sandwiches</h3>
+          <p>A convenient option for a quick bite.</p>
+        </div>
+
+        <div class="card">
+          <h3>🥡 Chinese & Fast Food</h3>
+          <p>Great for when you're craving something flavourful and quick.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="about">
+
+        <div class="section-title">
+          <h2>Your Local Cafe in Mangalore</h2>
+        </div>
+
+        <p>
+          Zen Cafe is a welcoming place for students, young adults,
+          families, and local customers to enjoy good food and drinks.
+          Whether you're dining in or taking your food with you,
+          we make it easy to enjoy your favourites your way.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+
+      <div class="section-title">
+        <h2>Our Services</h2>
+
+        <p>
+          At Zen Cafe, enjoy food and beverages your way with
+          dine-in and takeaway options.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>Dine-In</h3>
+          <p>
+            Enjoy your favourite food at Zen Cafe with friends,
+            family, or on your own.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Takeaway</h3>
+          <p>
+            Short on time? Choose takeaway and enjoy your favourite
+            Zen Cafe food wherever you go.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Food & Beverages</h3>
+          <p>
+            Choose from pizza, pasta, sandwiches, Chinese and fast food,
+            desserts, and fresh juices.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Food Categories -->
+    <section>
+
+      <div class="section-title">
+        <h2>Plenty to Choose From</h2>
+      </div>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>🍕 Pizza</h3>
+          <p>
+            A satisfying choice for sharing or enjoying on your own.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🍝 Pasta</h3>
+          <p>
+            A comforting option for a relaxed meal.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🥪 Sandwiches</h3>
+          <p>
+            A convenient choice for a quick bite.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🥡 Chinese & Fast Food</h3>
+          <p>
+            Enjoy flavourful options when you're looking for something quick.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🍰 Desserts</h3>
+          <p>
+            A sweet way to finish your meal.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🥤 Fresh Juices</h3>
+          <p>
+            Refreshing drinks to go with your food.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="services">
+
+      <div class="section-title">
+        <h2>Why Choose Zen Cafe?</h2>
+      </div>
+
+      <div class="why-list">
+
+        <div class="why-item">
+          <strong>Something for everyone</strong>
+          <p>A wide range of food and beverages to suit different cravings.</p>
+        </div>
+
+        <div class="why-item">
+          <strong>Dine-in or takeaway</strong>
+          <p>Enjoy your food at the cafe or take it with you.</p>
+        </div>
+
+        <div class="why-item">
+          <strong>Welcoming for all</strong>
+          <p>Suitable for students, young adults, families, and local customers.</p>
+        </div>
+
+        <div class="why-item">
+          <strong>Easy food choices</strong>
+          <p>Choose from quick bites, meals, desserts, and refreshing drinks.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contact">
+
+      <div class="section-title">
+        <h2>Your Next Meal Starts at Zen Cafe</h2>
+
+        <p>
+          Whether you're meeting friends, enjoying a meal with family,
+          grabbing a quick bite, or looking for takeaway, Zen Cafe has
+          food and beverages to suit your day.
+        </p>
+
+        <a href="#" class="btn">Visit Zen Cafe</a>
+        <a href="#services" class="btn btn-light">Explore Our Menu</a>
+      </div>
+
+      <h3>In Mangalore? Drop By Zen Cafe</h3>
+
+      <p>
+        Enjoy a meal at Zen Cafe or choose takeaway when you're on the go.
+        Make your next food stop simple and satisfying.
+      </p>
+
+      <a href="#" class="btn">Visit Us in Mangalore</a>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Zen Cafe, Mangalore. All rights reserved.
+  </footer>
+
+</body>
+</html>
