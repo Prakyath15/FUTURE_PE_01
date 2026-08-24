@@ -121,6 +121,19 @@ The individual prompts and their generated outputs are also documented separatel
 ## Repository Structure
 
 ```text
+## Task 2 – AI Content Marketing using UGC Ads
+
+### Business
+Zen Cafe – Mangalore
+
+### Prompt
+[View UGC Ad Prompt](task2/prompts/ugc_ad_prompt.md)
+
+### Generated UGC Ad Content
+[View UGC Ad Content Pack](task2/outputs/zen_cafe_ugc_ads.md)
+
+### Documentation
+[View Task 2 README](task2/README.md)
 FUTURE_PE_01/
 ├── README.md
 ├── index.md
