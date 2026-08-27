@@ -71,4 +71,4 @@ Tag the person you're taking to Zen Cafe next!
 
 1. **Good food + good company = a good day 🍕🍝🥪 Save Zen Cafe for your next food plan in Mangalore!**
 2. **When everyone wants something different, finding one food spot becomes easy 😍🍔🍕🍰 #ZenCafe #MangaloreFood**
-3. **Your next casual hangout spot might just be Zen Cafe 👀 Tag your food buddy!**
+3. **Your next casual hangout spot might just be Zen Cafe 👀 Tag your food buddy and plan your next visit! 🍕🍝❤️**
